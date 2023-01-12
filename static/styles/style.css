@@ -7,6 +7,7 @@ body {
 span {
   font-style: italic;
 }
+
 .list-conteiner {
   display: inline-block;
   border-style: solid;
@@ -19,7 +20,7 @@ span {
 }
 .img-conteiner {
 float: right;
-border-style:solid;
+border-style: solid;
 border-width: 0.5px;
 padding: 5px;
 margin-left: 10px;
@@ -52,3 +53,28 @@ padding: 10px;
 border-style: solid;
 border-width: 0.5px;
 } 
+
+
+@media (max-width: 900px) {
+.nav-conteiner   {
+  flex-direction: column;
+}
+}
+
+.text-page {
+  padding-left: 10px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+    width: 14%;
+    background-color: rgb(208, 224, 224);
+}
+
+.section {
+    width: 82%;
+}
